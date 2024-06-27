@@ -1,8 +1,8 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { MongoMemoryServer } = require("mongodb-memory-server");
 
-const { MongoDatabase } = require("..");
 const { MongoClient } = require("mongodb");
+const { MongoDatabase } = require("..");
 
 const COLLECTION_NAME = "testAdapter";
 
